@@ -96,7 +96,9 @@ export const originSources = {
   },
   "tieba": {
     name: "百度贴吧",
-    disable: true,
+    title: "热议",
+    type: "hottest",
+    color: "blue",
     home: "https://tieba.baidu.com",
   },
   "toutiao": {
@@ -114,7 +116,9 @@ export const originSources = {
   "thepaper": {
     name: "澎湃新闻",
     interval: Time.Common,
-    disable: true,
+    type: "hottest",
+    title: "热榜",
+    color: "gray",
     home: "https://www.thepaper.cn",
   },
   "sputniknewscn": {
@@ -156,6 +160,14 @@ export const originSources = {
         type: "hottest",
       },
     },
+  },
+  "gelonghui": {
+    name: "格隆汇",
+    color: "blue",
+    title: "事件",
+    type: "realtime",
+    interval: Time.Realtime,
+    home: "https://www.gelonghui.com",
   },
 } as const satisfies Record<string, OriginSource>
 

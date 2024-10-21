@@ -7,7 +7,7 @@ export const columnIds = ["focus", "realtime", "hottest", "china", "world", "tec
 const originMetadata: Metadata = {
   china: {
     name: "国内",
-    sources: ["weibo", "douyin", "toutiao", "zhihu"],
+    sources: ["zhihu", "thepaper"],
   },
   world: {
     name: "国际",
@@ -19,7 +19,7 @@ const originMetadata: Metadata = {
   },
   finance: {
     name: "财经",
-    sources: ["cls-telegraph", "cls-depth", "wallstreetcn", "wallstreetcn-hot", "wallstreetcn-news", "xueqiu-hotstock"],
+    sources: ["cls-telegraph", "cls-depth", "wallstreetcn", "wallstreetcn-hot", "wallstreetcn-news", "xueqiu-hotstock", "gelonghui"],
   },
   focus: {
     name: "关注",
